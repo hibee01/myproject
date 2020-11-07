@@ -1,0 +1,115 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#FFFFFF);
+
+}
+
+.myhead {
+    min-height: 50px;
+    /* background-color: red; */
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 25px;
+}
+
+nav a:nth-child(odd) {
+    color: grey;
+    opacity: 0.4;
+}
+
+.mario {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    /* background-color: yellow; */
+    min-height: 500px;
+    margin: 200px auto;
+}
+
+
+
+.mariobg {
+    background-image: url(images/IMG_7219.JPG);
+    width: 220px;
+    height: 340px;
+    border-radius: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.mariobg2 {
+    background-image: url(images/IMG_7208.JPG);
+    width: 220px;
+    height: 340px;
+    border-radius: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+     transition-duration: 500ms;
+
+}
+
+.mariobg3 {
+    background-image: url(images/IMG_7220.JPG);
+    width: 220px;
+    height: 340px;
+    border-radius: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.marioperson img {
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    left: 40%;
+    top: 35%;
+    z-index: 2;
+}
+
+.mariobg2 .marioperson img:last-of-type {
+    position: absolute;
+    left: 0%;
+    top: 30%;
+    z-index: 1;
+    
+}
+
+.mariobg:hover {
+    transform: scale(1.5);
+}
+
+.mariobg2:hover {
+    transform: scale(1.5);
+}
+
+.mariobg3:hover {
+    transform: scale(1.5);
+}
+
